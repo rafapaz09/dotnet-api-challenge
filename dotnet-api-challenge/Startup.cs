@@ -26,7 +26,7 @@ namespace dotnet_api_challenge
         }
 
         public IConfiguration Configuration { get; }
-        private string connectionString = "Server=tcp:applaudo-dotnet.database.windows.net,1433;Initial Catalog=dotnet-challenge;Persist Security Info=False;User ID=applaudo;Password=dotnet2022*;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+        
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
